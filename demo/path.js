@@ -8,4 +8,4 @@ console.log("Extname name:", path.extname(__filename))
 
 console.log("Parse:", path.parse(__filename))
 
-console.log(path.join(__dirname, "server", "index.html"))
+console.log("Created path :"+ path.join(__dirname, "server", "index.html"))
